@@ -60,7 +60,7 @@ header.appendChild(b);
 
  let nav = document.querySelectorAll("a");
 nav.forEach(function(element){
-  element.style.color = "green"
+  element.style.color = "green"})
 
 
 // Header
@@ -101,11 +101,11 @@ document.querySelector(".third-p").textContent = siteContent["contact"]["email"]
 document.querySelector("footer p").textContent = siteContent["footer"]["copyright"];
 
 
- // Stretches
+// Stretches
 
- document.querySelector(".top-content").style.backgroundColor = "#ecf2f8";
+document.querySelector(".top-content").style.backgroundColor = "#ecf2f8";
 
- let changeFont = document.querySelector(".change-color");
+let changeFont = document.querySelector(".change-color");
 changeFont.addEventListener("click",function(e){
-e.target.style.backgroundColor = "#ffe6ff";
+e.target.style.backgroundColor = "green";
 })
